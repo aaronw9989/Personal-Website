@@ -3,10 +3,30 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="website-style.css">
-    <title>title</title>
-    <p class="blue-font">Made some changes here</p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="website.js"></script>
+    <title>Aaron Williams</title>
   </head>
-  <body>
-  
+  <header>
+  <nav>
+  <ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+</nav>
+</header>
+  <body onload="setInterval(function(){getQuote();},10000)">
+  <div>
+  <br>
+  <br>
+  <h1 align="center">Aaron Williams</h1>
+  <button type="button" onclick="getQuote()">Click Me!</button>
+  <p id="rquote"></p>
+</div>
+<p></p>
+<p class="about-me">About Me:</p>
+  <footer> <p>Copywrite Aaron Williams 2017</p></footer>
   </body>
 </html>

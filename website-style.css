@@ -1,10 +1,60 @@
   
 /***** external style sheet *****/ 
 
-  body {color: red; background: orange} 
-  .blue-font {color: blue; font-size: 18; font-family: Arial; text-align: center} 
-  
-  /*td {color: green; background: lightblue} 
-  p  {text-indent: .5in; font-size: 14; margin-left: 5%; margin-right: 5%} 
-  a  {color: red; background: lightblue} 
-  a:hover {color:pink; background: blue}*/
+div {
+background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+
+
+.about-me {
+    color: #1abc9c; 
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p {
+   color: white; 
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header, footer {
+	color: white; 
+	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	font-size: 30px;
+	padding: 1em;
+    color: #fff;
+    background-color: #3d414d;
+    width: 100%;
+
+}
+
+h1 {
+	color: white; 
+	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	font-size: 70px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
